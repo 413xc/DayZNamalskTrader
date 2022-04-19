@@ -1,0 +1,916 @@
+{
+    "Locations": [
+        {
+            "Name": "Athena-1",
+            "Location": [
+                3777,
+                8240
+            ],
+            "Accuracy": 50
+        },
+        {
+            "Name": "Athena-2",
+            "Location": [
+                4945,
+                6668
+            ],
+            "Accuracy": 50
+        },
+        {
+            "Name": "Athena Research Institute",
+            "Location": [
+                4321,
+                8043
+            ],
+            "Accuracy": 50
+        },
+        {
+            "Name": "Sebjan Uranium Mine",
+            "Location": [
+                5085,
+                8197
+            ],
+            "Accuracy": 20
+        },
+        {
+            "Name": "Theed Airfield",
+            "Location": [
+                6302,
+                9433
+            ],
+            "Accuracy": 75
+        },
+        {
+            "Name": "Lubjansk Dock",
+            "Location": [
+                4475,
+                11227
+            ],
+            "Accuracy": 50
+        },
+        {
+            "Name": "Abafar Relay",
+            "Location": [
+                11432,
+                10807
+            ],
+            "Accuracy": 15
+        },
+        {
+            "Name": "Coose Bay",
+            "Location": [
+                2189,
+                5751
+            ],
+            "Accuracy": 15
+        },
+        {
+            "Name": "Tara Harbor",
+            "Location": [
+                7857,
+                7697
+            ],
+            "Accuracy": 1
+        },
+        {
+            "Name": "Tara Hospital",
+            "Location": [
+                7314,
+                7997
+            ],
+            "Accuracy": 25
+        },
+        {
+            "Name": "Sawmill",
+            "Location": [
+                7061,
+                5755
+            ],
+            "Accuracy": 50
+        },
+        {
+            "Name": "BK-108",
+            "Location": [
+                3938,
+                10008
+            ],
+            "Accuracy": 15
+        }
+    ],
+    "Packages": [
+        {
+            "Package_name": "KenobiGuns",
+            "object_type": "CarePackage_typhon",
+            "parachute_type": "ArmyParachute_typhon",
+            "Items": [
+                {
+                    "Item": "dzn_Pajka",
+                    "MinQty": 1,
+                    "MaxQty": 5,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Dollar_100",
+                    "MinQty": 200,
+                    "MaxQty": 200,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Msp_Vorpalknife",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Lockpick",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                }
+            ],
+            "Weapons": [
+                {
+                    "Item": "Rev_SR25_Black",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Rev_Mag_SR25_10RD",
+                        "SNAFU_SR25_Supp",
+                        "ACOGOptic_6x"
+                    ]
+                },
+                {
+                    "Item": "SNAFUAlligator",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "SNAFUAlligator_5rdMag",
+                        "AD_LeupoldMK4"
+                    ]
+                },
+                {
+                    "Item": "JebsGuns_MBR_Bloodmoon",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Mag_CMAG_20rnd_Black"
+                    ]
+                },
+                {
+                    "Item": "JebsGuns_MBR_Frostbite",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Mag_CMAG_20rnd_Black"
+                    ]
+                },
+                {
+                    "Item": "JebsGuns_KrissVector_TD",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "JebsGuns_Mag_KrissVector_30rnd",
+                        "JebsGuns_KrissVector_Suppressor"
+                    ]
+                },
+                {
+                    "Item": "Deagle_Gold",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Mag_Deagle_9rnd"
+                    ]
+                },
+                {
+                    "Item": "SNAFUVSSK",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "SNAFU_VSSKbipod",
+                        "MassScope",
+                        "SNAFUVSSK_5rdMag"
+                    ]
+                }
+            ]
+        },
+        {
+            "Package_name": "MASHMedicalDrop",
+            "object_type": "CarePackage_red",
+            "parachute_type": "ArmyParachute_red",
+            "Items": [
+                {
+                    "Item": "Nail",
+                    "MinQty": 25,
+                    "MaxQty": 75,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Msp_Vorpalknife",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackNomad",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "TetracyclineAntibiotics",
+                    "MinQty": 1,
+                    "MaxQty": 24,
+                    "Attachments": []
+                },
+                {
+                    "Item": "VitaminBottle",
+                    "MinQty": 1,
+                    "MaxQty": 25,
+                    "Attachments": []
+                },
+                {
+                    "Item": "PainkillerTablets",
+                    "MinQty": 10,
+                    "MaxQty": 25,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Morphine",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Ephinephrine",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "BandageDressing",
+                    "MinQty": 0,
+                    "MaxQty": 48,
+                    "Attachments": []
+                },
+                {
+                    "Item": "SalineBagIV",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "BloodBagIV",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "M185SmokeGrenade_RedContaminated",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Lockpick",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "HDSN_Detonator",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "HDSN_Charcoal",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "TacticalBaconCan",
+                    "MinQty": 1,
+                    "MaxQty": 5,
+                    "Attachments": []
+                },
+                {
+                    "Item": "dzn_Pate",
+                    "MinQty": 1,
+                    "MaxQty": 5,
+                    "Attachments": []
+                },
+                {
+                    "Item": "dzn_Pajka",
+                    "MinQty": 1,
+                    "MaxQty": 5,
+                    "Attachments": []
+                },
+                {
+                    "Item": "PetrolLighter",
+                    "MinQty": 0,
+                    "MaxQty": 2,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Dollar_100",
+                    "MinQty": 100,
+                    "MaxQty": 500,
+                    "Attachments": []
+                }
+            ],
+            "Weapons": []
+        },
+        {
+            "Package_name": "GoldenGooseGuns",
+            "object_type": "CarePackage_typhon",
+            "parachute_type": "ArmyParachute_cadpat",
+            "Items": [
+                {
+                    "Item": "HDSN_Gunpowder",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackBlackFrost",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackNomad",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "BrassKnuckles_Shiny",
+                    "MinQty": 1,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "M185SmokeGrenade_Yellow",
+                    "MinQty": 1,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "HDSN_Explosive",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                }
+            ],
+            "Weapons": [
+                
+                {
+                    "Item": "JebsGuns_MBR_Typhoon",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Mag_CMAG_20rnd_Black"
+                    ]
+                },
+                {
+                    "Item": "JebsGuns_MBRX_Bloodmoon",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "JebsGuns_Mag_MDRX_50rnd"
+                    ]
+                },
+                {
+                    "Item": "Rev_SR25_Black",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Rev_Mag_SR25_10RD",
+                        "SNAFU_SR25_Supp",
+                        "ACOGOptic_6x"
+                    ]
+                },
+                {
+                    "Item": "Deagle_Gold",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Mag_Deagle_9rnd"
+                    ]
+                }
+            ]
+        },
+        {
+            "Package_name": "UrisSpecialStash",
+            "object_type": "CarePackage_green",
+            "parachute_type": "ArmyParachute_green",
+            "Items": [
+                {
+                    "Item": "CP_CannabisBrickSkunk",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisBrickKush",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisBrickFuture",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisBrickBlackFrost",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackBlackFrost",
+                    "MinQty": 0,
+                    "MaxQty": 2,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackNomad",
+                    "MinQty": 0,
+                    "MaxQty": 2,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackPackS1",
+                    "MinQty": 0,
+                    "MaxQty": 2,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackFuture",
+                    "MinQty": 0,
+                    "MaxQty": 2,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackStardawg",
+                    "MinQty": 1,
+                    "MaxQty": 2,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Fannypack_pink_mung",
+                    "MinQty": 1,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackKush",
+                    "MinQty": 0,
+                    "MaxQty": 3,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackBlue",
+                    "MinQty": 0,
+                    "MaxQty": 3,
+                    "Attachments": []
+                },
+                {
+                    "Item": "CP_CannabisSeedsPackSkunk",
+                    "MinQty": 0,
+                    "MaxQty": 2,
+                    "Attachments": []
+                },
+                {
+                    "Item": "BBP_Blueprint",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "DP_CocaSeeds",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "BearTrap",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "Lockpick",
+                    "MinQty": 1,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "HDSN_Explosive",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "TripwireTrap",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                },
+                {
+                    "Item": "M185SmokeGrenade_Green",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": []
+                }
+            ],
+            "Weapons": [
+                {
+                    "Item": "Rev_SR25_Black",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": 
+                    [
+                        "Rev_Mag_SR25_10RD",
+                        "SNAFU_SR25_Supp",
+                        "ACOGOptic_6x"
+                    ]
+                },
+                {
+                    "Item": "Rev_M200_Suppressor",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": 
+                    [
+                        "Mag_CMAG_20rnd_Black"
+
+                    ]
+                },
+                {
+                    "Item": "JebsGuns_MBR_Bloodmoon",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": 
+                    [
+                        "Mag_CMAG_20rnd_Black"
+                    ]
+                },
+                {
+                    "Item": "Rev_M200",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": 
+                    [
+                        "Rev_Mag_M200_7rnd", "Rev_Mag_M200_Suppressor"
+                    ]
+                },
+                {
+                    "Item": "Deagle_Gold",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Mag_Deagle_9rnd"
+                    ]
+                },
+                {
+                    "Item": "JebsGuns_MBR_Frostbite",
+                    "MinQty": 0,
+                    "MaxQty": 1,
+                    "Attachments": [
+                        "Mag_CMAG_20rnd_Black"
+                    ]
+                },
+                {
+                    "Package_name": "BobTheBuilder",
+                    "object_type": "CarePackage_red",
+                    "parachute_type": "ArmyParachute_red",
+                    "Items": [
+                        {
+                            "Item": "Nail",
+                            "MinQty": 15,
+                            "MaxQty": 75,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "Lockpick",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                       {
+                            "Item": "BBP_T2_WindowKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T3_DoorKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T2_RoofKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T2_StairKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T2_WindowKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T3_WindowKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T2_GateKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T3_GateKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T2_FloorHatchKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T3_FloorHatchKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                         {
+                            "Item": "BBP_T2_RoofHatchKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T3_RoofHatchKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_T3_FoundationKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_PillarKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_SofaKit",
+                            "MinQty": 0,
+                            "MaxQty": 2,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BBP_Dance_FloorKit",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "HDSN_C4Stick",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        }
+                  
+                    ]
+                },
+                {
+                    "Package_name": "BigBooms",
+                    "object_type": "CarePackage_bloodmoon",
+                    "parachute_type": "ArmyParachute_green",
+                    "Items": [
+                        {
+                            "Item": "Dollar_100",
+                            "MinQty": 100,
+                            "MaxQty": 500,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "LandMineTrap",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "M67Grenade",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "BearTrap",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "FlashGrenade",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "TripwireTrap",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "M185SmokeGrenade_Red",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "M185SmokeGrenade_Purple",
+                            "MinQty": 1,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "M185SmokeGrenade_Yellow",
+                            "MinQty": 1,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "RDG2SmokeGrenade_Red",
+                            "MinQty": 1,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "RDG2SmokeGrenade_White",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "HDSN_Gunpowder",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "HDSN_Charcoal",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "HDSN_Sulfur",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "HDSN_Detonator",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "HDSN_Sticks",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "TacticalBaconCan",
+                            "MinQty": 1,
+                            "MaxQty": 5,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "dzn_Pate",
+                            "MinQty": 1,
+                            "MaxQty": 5,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "dzn_Pajka",
+                            "MinQty": 1,
+                            "MaxQty": 5,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "Dollar_100",
+                            "MinQty": 10,
+                            "MaxQty": 50,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "Lockpick",
+                            "MinQty": 1,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        },
+                        {
+                            "Item": "HDSN_Explosive",
+                            "MinQty": 0,
+                            "MaxQty": 1,
+                            "Attachments": []
+                        }
+                    ],
+                    "Weapons": []
+                }
+            ]
+        }
+    ],
+            "InfectedTypes": [
+                "ZmbM_MotobikerFat_Beige",
+                "ZmbM_MotobikerFat_Black",
+                "ZmbM_MotobikerFat_Blue",
+                "ZmbM_JoggerSkinny_Red",
+                "ZmbM_SkaterYoung_Blue",
+                "ZmbM_SkaterYoung_Brown",
+                "ZmbM_SkaterYoung_Green",
+                "ZmbM_SkaterYoung_Grey",
+                "ZmbM_ClerkFat_Brown",
+                "ZmbM_ClerkFat_Khaki",
+                "ZmbF_JournalistNormal_White",
+                "ZmbF_Clerk_Normal_White",
+                "ZmbF_CitizenANormal_Blue",
+                "ZmbF_CitizenBSkinny",
+                "ZmbF_HikerSkinny_Grey",
+                "ZmbF_SurvivorNormal_Orange",
+                "ZmbF_HikerSkinny_Green",
+                "ZmbF_JoggerSkinny_Green",
+                "ZmbF_SkaterYoung_Striped",
+                "ZmbF_BlueCollarFat_Red",
+                "ZmbF_MechanicNormal_Beige",
+                "ZmbF_PatientOld",
+                "ZmbF_VillagerOld_Red",
+                "ZmbF_JoggerSkinny_Red",
+                "ZmbF_MilkMaidOld_Beige",
+                "ZmbF_VillagerOld_Green",
+                "ZmbF_NurseFat",
+                "ZmbF_PoliceWomanNormal",
+                "ZmbF_HikerSkinny_Blue",
+                "ZmbF_ParamedicNormal_Green",
+                "ZmbF_JournalistNormal_Red",
+                "ZmbF_SurvivorNormal_White",
+                "ZmbF_JoggerSkinny_Brown",
+                "ZmbF_MechanicNormal_Grey",
+                "ZmbF_BlueCollarFat_Green",
+                "ZmbF_DoctorSkinny",
+                "ZmbM_CitizenANormal",
+                "ZmbF_BlueCollarFat_Blue",
+                "ZmbF_FishermanOld_Blue",
+                "ZmbF_FishermanOld_Red",
+                "ZmbF_FishermanOld_Green",
+                "ZmbF_JournalistNormal_Blue",
+                "ZmbF_SurvivorNormal_Blue",
+                "ZmbF_SurvivorNormal_Red",
+                "ZmbF_CommercialPilotOld_Red",
+                "ZmbF_CommercialPilotOld_Blue",
+                "ZmbM_HermitSkinny_Red",
+                "ZmbF_OffshoreWorker_Green",
+                "ZmbF_OffshoreWorker_Blue",
+                "ZmbF_HeavyIndustryWorker"
+            ],
+             "LootSpawnType": 0,
+            "MinutesBetweenPackages": 5,
+            "DropHeight": 100,
+            "DropTime": 5,
+            "MinutesAway": 2,
+            "ItemsToSpawn": 6,
+            "ZombiesToSpawn": 15,
+            "Title": "The Council's Survival Package",
+            "DroppedMessage": "The Survival Package is on the ground. May the Force be with you ",
+            "StartMessage": "Survival Package is being prepared for delivery to ",
+            "MinutesAwayPrefix": "BT-7 THUNDERCLAP is ",
+            "MinutesAwaySuffix": " minutes away from "
+        }
+        
